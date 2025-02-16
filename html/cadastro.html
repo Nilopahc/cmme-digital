@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CMME_Digital</title>
+    <link rel="stylesheet" href="../css/cadastro.css">
 </head>
 <body>
     <header>
@@ -11,7 +12,7 @@
     </header>
     <main>
         <h2>Realize seu Cadastro</h2>
-        <div>
+        <div id="login">
             <form action="#" method="post">
                 <h3>Informações para login</h3>
                 <p>
@@ -26,16 +27,20 @@
                     <label for="pass">Digite sua senha</label>
                     <input type="password" name="pass" id="pass0">
                 </p>
-                <p><label for="pass">Confirme sua senha</label>
-                <input type="password" name="pass" id="pass"></p>
+                <p>
+                    <label for="pass">Confirme sua senha</label>
+                    <input type="password" name="pass" id="pass">
+               </p>
+            </form>
+        </div>
+        <div>
                 <h3>Informações de endereço</h3>
                 <p>Você reside em Cuité de Mamanguape ou sítios pertencentes a cidade?</p>
                 <input type="radio" name="city" id="city" checked>
                 <label for="city">Sim</label>
                 <input type="radio" name="city" id="city">
                 <Label for="city">Não</Label>
-            </form>
-        </div>
+            </div>
     </main>
 </body>
 </html>
