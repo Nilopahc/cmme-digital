@@ -43,4 +43,4 @@ button:focus{
 }
 body:has(button:sticky) button {
     background-color: #555;
-}
+  }

@@ -1,3 +1,14 @@
+function submit(){
+    let email = document.getElementById('name')
+    let pass = document.getElementById('pass0')
+    let cpass = document.getElementById('pass')
+    let cidade = document.getElementById('cep')
+    let uf = document.getElementById('estado')
+    let endereço = document.getElementById('endereco')
+    let nome = document.getElementById('name')
+    let contato = document.getElementById('phone')
+    let foto = document.getElementById('foto')
+}
 /*function city(){
     let city = document.getElementsByName('city')
     let res = document.getElementById('res')
