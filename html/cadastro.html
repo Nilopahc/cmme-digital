@@ -36,6 +36,7 @@
         </div>
         <div class="city">
                 <h3>Informações de endereço</h3>
+                <!--
                 <p>
                     Você reside em Cuité de Mamanguape ou sítios pertencentes a cidade?
                 </p>
@@ -43,6 +44,34 @@
                 <label for="city">Sim</label>
                 <input type="radio" name="city" id="city2" checked>
                 <Label for="city">Não</Label>
+            -->
+                <p>
+                    <label for="CEP">Cidade</label>
+                    <input type="text" name="cep" id="cep">
+
+                    <label for="estado">UF</label>
+                    <input type="text" name="estado" id="estado">
+                </p>
+                <p>
+                    <label for="endereco">Endereço</label>
+                    <input type="text" id="endereco" name="endereco" placeholder="Rua, número, bairro">
+                </p>
+            </div>
+            <div class="Contato">
+                <h3>Contato</h3>
+                <p>
+                    <label for="name">Seu nome</label>
+                    <input type="text" name="name" id="name">
+                </p>
+                <p>
+                    <label for="phone">Telefone para contato</label>
+                    <input type="tel" name="phone" id="phone">
+                </p>
+                <p>
+                    <label for="foto">Foto de Perfil (opcional)</label>
+                    <input type="file" name="foto" id="foto">
+                </p>
+                
             </div>
             <div id="res"></div>
     </main>
