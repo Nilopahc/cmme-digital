@@ -10,6 +10,9 @@ header{
     text-align: center;
     color: rgb(255, 255, 255);
 }
+h2{
+    text-align: center;
+}
 main{
     background: white;
     border-radius: 10px;
@@ -23,4 +26,32 @@ main{
     margin-top: 5px;
     border: 1px solid #535353;
     border-radius: 4px;
+}
+#endereco{
+    width: 84%;
+}
+.city input{
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid #535353;
+    width: 40%;
+}
+.Contato input[type="text"], .Contato input[type="tel"]{
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid #535353;
+    width: 99%;
+    margin-right: 30px;
+    display: block;
+}
+#button{
+    background: #00aeff;
+    color: white;
+    border: 1px solid #535353;
+    margin: auto;
+    text-align: center;
+    padding: 12px;
+    border-radius:10px;
+    cursor: pointer;
+    cursor: ;
 }
