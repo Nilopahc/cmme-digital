@@ -8,6 +8,10 @@ function submit(){
     let nome = document.getElementById('name')
     let contato = document.getElementById('phone')
     let foto = document.getElementById('foto')
+
+    if(email.value.length == 0|| pass.value.length == 0|| pass.value.length == 0|| cidade.value.length == 0|| uf.value.length == 0|| endereço.value.length == 0|| nome.value.length == 0|| contato.value.length == 0){
+        alert("Não deixe espaços em brancos")
+    }
 }
 /*function city(){
     let city = document.getElementsByName('city')
