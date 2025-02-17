@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CMME_Digital</title>
     <link rel="stylesheet" href="../css/cadastro.css">
+    <script src="../js/cadastro.js"></script>
 </head>
 <body>
     <header>
@@ -33,14 +34,17 @@
                </p>
             </form>
         </div>
-        <div>
+        <div class="city">
                 <h3>Informações de endereço</h3>
-                <p>Você reside em Cuité de Mamanguape ou sítios pertencentes a cidade?</p>
-                <input type="radio" name="city" id="city" checked>
+                <p>
+                    Você reside em Cuité de Mamanguape ou sítios pertencentes a cidade?
+                </p>
+                <input type="radio" name="city" id="city1" onclick="city()">
                 <label for="city">Sim</label>
-                <input type="radio" name="city" id="city">
+                <input type="radio" name="city" id="city2" checked>
                 <Label for="city">Não</Label>
             </div>
+            <div id="res"></div>
     </main>
 </body>
 </html>
