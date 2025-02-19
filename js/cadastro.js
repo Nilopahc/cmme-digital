@@ -1,5 +1,5 @@
 function submit(){
-    let email = document.getElementById('name')
+    let email = document.getElementById('email1')
     let pass = document.getElementById('pass0')
     let cpass = document.getElementById('pass')
     let cidade = document.getElementById('cep')
